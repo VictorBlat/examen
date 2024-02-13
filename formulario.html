@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header><h1><center><a href="index.html">Criptomonedas</a></center></h1></header>
+    <hr>
+    <main>
+        <section>
+            <p class="bitcoin">Bitcoin. Valor 46,140€</p>
+        </section>
+        <hr>
+        <form action="opinio.php" method="get">
+            Nom<input class="texto" type="text" id="Nom" name="Nom" placeholder="nom" ><br>
+            Cognom <input class="texto" type="text" id="Cognom" name="Cognom" placeholder="cognom"><br>
+            correu electronic <input class="texto" type="email" id="email" name="email" placeholder="e-mail"><br>
+            Data <input class="estandard" type="date" name="data" id="data"><br>
+            Hora <input class="estandard" type="time" name="time" id="time"><br>
+            Quantitat de monedes <input class="texto" type="number" name="numero" id="numero"><br>
+            Opinió bitcoin <textarea name="opinion" class="textogrande" id="" cols="30" rows="10"></textarea><br>
+            <input class="botones" type="submit" name="enviar" id="enviar" value="Enviar opinio">
+            <input class="botones" type="reset" name="reset" id="reset" value="borrar">
+        </form>
+
+    </main>
+    <hr>
+    <footer>
+        <p>Web desarrollada por <span class="autor">Victor Blat</span></p>
+    </footer>
+    
+</body>
+</html>
